@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #F3525A;
+    --primary: #EA3A7A;
     --secondary: #F6F6F6;
     --light: #FFFFFF;
     --dark: #152440;
@@ -44,7 +44,7 @@ h6,
 }
 
 .btn-primary {
-    color: #FFFFFF;
+    background-color:#EA3A7A;
 }
 
 .btn-square {
@@ -268,28 +268,28 @@ h6,
     bottom: 30px;
     font-size: 17px;
   }
-  
+
   #snackbar.show {
     visibility: visible;
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
   }
-  
+
   @-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
+    from {bottom: 0; opacity: 0;}
     to {bottom: 30px; opacity: 1;}
   }
-  
+
   @keyframes fadein {
     from {bottom: 0; opacity: 0;}
     to {bottom: 30px; opacity: 1;}
   }
-  
+
   @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
+    from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
   }
-  
+
   @keyframes fadeout {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}

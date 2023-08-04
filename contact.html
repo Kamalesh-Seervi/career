@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CONSULT - Consultancy Website Template</title>
+    <title>Metiertips</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -44,7 +44,7 @@
                 </div>-->
             </div>
             <div class="col-md-6 text-center text-lg-end">
-                <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                <div style="background-color: #EA3A7A;" class="position-relative d-inline-flex align-items-center text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
                         <p class="m-0"><i class="fa fa-envelope-open me-2"></i>paradoxinc22@gmail.com</p>
                     </div>
@@ -61,7 +61,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a href="index.html" class="navbar-brand p-0">
-            <h1 class="m-0 text-uppercase text-primary"><i class="far fa-smile text-primary me-2"></i>Metiertips</h1>
+            <img class="w-100" src="img/logo2.png" alt="Image" height="70" width="70">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" title="button">
             <span class="navbar-toggler-icon"></span>
@@ -93,7 +93,7 @@
         <div class="row g-0">
             <div class="col-lg-6 py-6 px-5">
                 <h1 class="display-5 mb-4">Contact For Any Queries</h1>
-                <h5>Email us at paradoxinc22@gmail.com</h5>
+                <h5 style="color: #EA3A7A;">Email us at paradoxinc22@gmail.com</h5>
             </div>
         </div>
     </div>
@@ -101,14 +101,14 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-secondary p-5">
+    <div style="background-color:#152440;" class="container-fluid text-secondary p-5">
         <div class="row g-5">
             <div class="col-12 text-center">
-                <h1 class="display-5 mb-4">Interested?</h1>
+                <h5 style="color: white;" class="display-5 mb-4">Interested?</h5>
                 <form class="mx-auto" method="post" name="google-sheet" style="max-width: 600px;">
                     <div class="input-group">
                         <input type="text" class="form-control border-white p-3" name="email" placeholder="Your Email">
-                        <input class="btn btn-dark px-4" name="submit" value="SignUp" type="submit">
+                        <input style="background-color: #EA3A7A; color:white" class="btn px-4" name="submit" value="SignUp" type="submit">
                     </div>
                 </form>
             </div>
@@ -148,7 +148,7 @@
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycby30BxXdWznlCoS9sh3Nx0JvMDrjUx5ijbHAWKhpyMb3xZQyb-mo8yEllBY6YB_Yf0V7A/exec'
         const form = document.forms['google-sheet']
-      
+
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
